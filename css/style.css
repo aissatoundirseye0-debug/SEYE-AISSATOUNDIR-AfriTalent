@@ -1,0 +1,10 @@
+:root{
+  --c-primary:#0e624c; --c-accent:#f5b301; --bg:#fbfaf6; --txt:#141414;
+  --font-body:"Plus Jakarta Sans",sans-serif; --font-title:"Playfair Display",serif;
+  --space-2:1rem; --space-3:1.5rem;
+}
+*{box-sizing:border-box;}
+body{margin:0; font-family:var(--font-body); background:var(--bg); color:var(--txt);}
+.hero{padding:var(--space-3); display:grid; gap:var(--space-2);}
+.hero h1{font-family:var(--font-title); font-size:clamp(2rem,5vw,3rem);}
+.btn-primary{background:var(--c-primary); color:white; padding:.6rem 1rem; border-radius:8px; text-decoration:none;}
